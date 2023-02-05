@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #FFF;
+}
+
+main .kanban {
+    width: 100%;
+    max-width: 1420px;
+    height: 100vh;
+    max-height: 720px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 0 20px;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+
+main .create {
+    width: 100%;
+    max-width: 1420px;
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 15px;
+    padding-right: 20px;
+}
+
+main .create button {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    border: none;
+    background-color: #645CBB;
+    color: #fff;
+    font-size: 26px;
+    cursor: pointer;
+}

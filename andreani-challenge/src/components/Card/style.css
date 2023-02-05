@@ -1,0 +1,70 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    min-height: 150px;
+    padding: 20px;
+    margin-bottom: 15px;
+    border-radius: 6px;
+    background-color: #FFF;
+    filter: drop-shadow(2px 3px 7px rgba(0 0 0 / .06));
+    position: relative;
+}
+
+.card .card_header {
+    width: calc(100% - 40px);
+    display: flex;
+    justify-content: flex-end;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.card .card_header button {
+    width: 25px;
+    height: 25px;
+    border: none;
+    background-color: transparent;
+    outline: none;
+    cursor: pointer;
+}
+
+.card .card_header button img {
+    width: 100%;
+    height: 100%;
+}
+
+.card .card_description {
+    display: flex;
+    flex-direction: column;
+}
+
+.card .card_description .description_label {
+    font-size: 14px;
+}
+
+.card .card_description .description_text {
+    font-size: 20px;
+    inline-size: 100%;
+    overflow-wrap: break-word;
+}
+
+.card .actions {
+    width: 100%;
+    display: flex;
+}
+
+.card .actions button {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.card .actions button img {
+    width: 35px;
+}
+
+.card .actions button:first-child {
+    margin-right: 8px;
+}

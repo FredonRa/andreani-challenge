@@ -1,0 +1,17 @@
+.list {
+    width: 33%;
+    min-width: 330px;
+    height: 100%;
+    background-color: #F1F2F3;
+    padding: 15px;
+}
+
+.list .list_title {
+    margin-bottom: 20px;
+    color: #301E67;
+}
+
+.list .list_cards {
+    height: calc(100% - 30px);
+    overflow: auto;
+}
