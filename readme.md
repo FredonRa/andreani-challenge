@@ -1,20 +1,23 @@
 *** ANDREANI - CHALLENGE ***
 
+*** Tiempo registrado (CLOCKIFY) ***
+- 02:43:20 hs (desarrollo)
+
 *** TECNOLOGÍAS Y HERRAMIENTAS ***
-React
-Hooks
-Vite (bundles)
+- React
+- Hooks
+- Vite (bundles)
 
 *** REQUISITOS ***
-Node >= v16 Versión LTS => https://nodejs.org/es
+- Node >= v16 Versión LTS => https://nodejs.org/es
 
 *** DEMO ***
-Link: https://fil-andreani-challenge.vercel.app/
+-Link: https://fil-andreani-challenge.vercel.app/
 
 ![Demo image](https://github.com/FredonRa/andreani-challenge/blob/master/screenshots/demo.png)
 
 *** RUN ***
-Dentro de la carpeta andreani-challenge
+- Dentro de la carpeta andreani-challenge
 
 ```console
 $ npm install
